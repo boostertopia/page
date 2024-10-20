@@ -125,6 +125,33 @@ body {
     bottom: 580px;
     left: 400px;
     margin: auto;
+
+    filter: drop-shadow(5px 5px 0px #000000)
+}
+
+.boybestfriends {
+  height: 270px;
+  width: auto;
+  
+  position: relative;
+  right: 12px;
+  bottom: 23px;
+  margin: auto;
+  z-index: 1;
+
+  filter: drop-shadow(5px 5px 0px #000000)
+}
+
+.shirt {
+  height: 400px;
+  width: auto;
+
+  position: relative;
+  bottom: 750px;
+  margin: auto;
+  right: 1050px;
+
+  filter: drop-shadow(5px 5px 0px #000000)
 }
 
 #main-text, #blog-text, #KU-text {
