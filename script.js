@@ -7,6 +7,28 @@ const page_text = {
 };
 document.getElementById("blogbuttons").addEventListener("click", handleClick);
 
+let pageViews = localStorage.getItem('pageViews');
+if (!pageViews) {
+    pageViews = 0;
+}
+pageViews++;
+let digits = pageViews.toString().length;
+switch (parseInt(digits)) {
+    case 1:
+        pageViews = String(pageViews).padStart(4, 0)
+        break;
+    case 2:
+        pageViews = String(pageViews).padStart(4, 0)
+        break;
+    case 3:
+        pageViews = String(pageViews).padStart(4, 0)
+        break;
+    default:
+        console.log("woah thats a lot of page views")
+}
+localStorage.setItem('pageViews', pageViews);
+document.getElementById('star').innerHTML = `<br><br><span class="heading">${pageViews}</span> views`;
+
 function toBack() {
     if (page == 1) {
         page = 1;
