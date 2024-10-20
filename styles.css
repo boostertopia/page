@@ -1,0 +1,315 @@
+.top-bar:not(#blogbar), .tab-bar:not(#blogtab), .main-box:not(#blogmainbox) {
+    right: 67px;
+    bottom: 20px;
+}
+
+.top-bar {
+    width: 400px;
+    height: 30px;
+    border: thin solid #ecb81b;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+    font-family: nintendo;
+    font-size: 20px;
+    line-height: 1.5em;
+    word-spacing: 7px;
+    
+    background-color: #f3e294;
+
+    position: relative;
+    padding: 2px;
+    margin: auto;
+    top: 50px;
+}
+
+#blogbar.top-bar {
+    width: 540px;
+
+    position: relative;
+    padding: 2px;
+    margin: auto;
+    top: 95px;
+}
+
+.pixel {
+    top: 50px;
+}
+
+.tab-bar {
+    width: 406px;
+    height: 25px;
+    border: thin solid #ecb81b;
+    text-align: left;
+    font-family: nintendo;
+    font-size: 18px;
+    line-height: 1.2em;
+    word-spacing: 15px;
+
+    background: linear-gradient(180deg, #f9e8b4, #FFFFFF);
+    
+    position: relative;
+    padding: 2px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding-left: 5px;
+    margin: auto;
+    top: 50px;
+}
+
+#blogtab.tab-bar {
+    top: 95px;
+    width: 545px;
+}
+
+.main-box {
+    width: 406px;
+    height: 250px;
+    border: thin solid #ecb81b;
+    font-family: nintendo;
+    font-size: 20px;
+    line-height: 1.2em;
+    background-color: #fcfaf5;
+
+    position: relative;
+    padding: 2px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding-left: 5px;
+    margin: auto;
+    top: 50px;
+}
+
+#blogmainbox.main-box {
+    width: 545px;
+    top: 95px;
+}
+
+.booster {
+    width: 170px;
+    height: auto;
+    border: outset 3px #ecb81b;
+    background-color: #FFFFFF;
+    
+    position: relative;
+    left: 215px;
+    top: 10px;
+}
+
+.boostertopia {
+    height: 300px;
+    width: auto;
+
+    position: relative;
+    bottom: 580px;
+    left: 400px;
+    margin: auto;
+}
+
+#main-text {
+    width: 205px;
+    height: 230px;
+    border: 2px solid #ecb81b;
+    font-family: nintendo;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+    top: -172px;
+    padding: 2px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding-left: 5px;
+    padding-top: 5px;
+    position: relative;
+    left: 3px;
+
+    overflow: auto;
+}
+
+#blog-text {
+    width: 520px;
+    height: 190px;
+    border: 2px solid #ecb81b;
+    font-family: nintendo;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+    padding: 2px;
+    padding-left: 5px;
+    padding-top: 5px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    position: relative;
+    top: 9px;
+    left: 6px;
+
+    overflow: auto;
+}
+
+#main-text::-webkit-scrollbar {
+    width: 13px;
+    height: 16px;
+  }
+
+  #main-text::-webkit-scrollbar-track {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAFElEQVQIW2M4fPz0////GYAYyAIASnoKpV3w4kgAAAAASUVORK5CYII=");
+    image-rendering: pixelated;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  #main-text::-webkit-scrollbar-track:active {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAEElEQVQIW2No6+pjgAAgCwAWogM9VKrgGQAAAABJRU5ErkJggg==");
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  #main-text::-webkit-scrollbar-thumb {
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: inset 1px 1px 0 0 white, inset -1px -1px 0 0 #868a8e;
+    width: 16px;
+    height: 16px;
+    background-color: #cccccc;
+    z-index: 1;
+  }
+
+  #main-text::-webkit-scrollbar-corner {
+    background-color: #cccccc;
+  }
+
+  #main-text::-webkit-resizer {
+    width: 16px;
+    height: 16px;
+    background-color: #cccccc;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAN0lEQVR4Ae3MgQUAMBRDwU5fFF05lb/CARTBw2Ulof0DxPtcwp3hNuEYnjbcEW4TjuFpwx3h9gMWGgZ2Y/PT2gAAAABJRU5ErkJggg==");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+  }
+
+  #main-text::-webkit-scrollbar-button,
+  #main-text::-webkit-scrollbar-button {
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: inset 1px 1px 0 0 white, inset -1px -1px 0 0 #868a8e;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #cccccc;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  #main-text::-webkit-scrollbar-button:active,
+  #main-text::-webkit-scrollbar-button:active {
+    background-position: 2px 2px;
+  }
+
+  #main-text::-webkit-scrollbar-button:horizontal:decrement,
+  #main-text::-webkit-scrollbar-button:horizontal:decrement {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHklEQVQY02NgoBT8xyX8H5fwf1zCpOjAYwceV1EEAAO2D/HsQ4vsAAAAAElFTkSuQmCC");
+  }
+
+  #main-text::-webkit-scrollbar-button:horizontal:increment,
+  #main-text::-webkit-scrollbar-button:horizontal:increment {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHUlEQVQY02NgIB/8xy3xH7fEf9wS/0nUQZqrKAYAK44P8ZRmzLQAAAAASUVORK5CYII=");
+  }
+
+  #main-text::-webkit-scrollbar-button:vertical:decrement,
+  #main-text::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGklEQVR4AWMYxuA/SYphmETFhDX9x4mHGQAAcL4P8dQiMq8AAAAASUVORK5CYII=");
+  }
+
+  #main-text::-webkit-scrollbar-button:vertical:increment,
+  #main-text::-webkit-scrollbar-button:vertical:increment {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAF0lEQVQY02NgoBf4jwJxSOHQhcNAOgMAWWAP8Rv2U3UAAAAASUVORK5CYII=");
+  }
+
+  #main-text::-webkit-scrollbar-button:horizontal:increment:start,
+  #main-text::-webkit-scrollbar-button:horizontal:increment:start {
+    display: none;
+  }
+
+  #main-text::-webkit-scrollbar-button:horizontal:decrement:end,
+  #main-text::-webkit-scrollbar-button:horizontal:decrement:end {
+    display: none;
+  }
+
+  #main-text::-webkit-scrollbar-button:vertical:increment:start,
+  #main-text::-webkit-scrollbar-button:vertical:increment:start {
+    display: none;
+  }
+
+  #main-text::-webkit-scrollbar-button:vertical:decrement:end,
+  #main-text::-webkit-scrollbar-button:vertical:decrement:end {
+    display: none;
+  }
+
+  #main-text::-webkit-scrollbar-button:active,
+  #main-text::-webkit-scrollbar-button:active {
+    border-top: 1px solid #868a8e;
+    border-left: 1px solid #868a8e;
+    border-bottom: 1px solid #868a8e;
+    border-right: 1px solid #868a8e;
+    box-shadow: none;
+  }
+
+.heading, .buttons * {
+    width: 80px;
+    border: thin solid #ecb81b;
+    font-family: nintendo;
+    border-radius: 5px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding: 2px;
+    color: #c49300;
+    font-size: 25px;
+    text-align: center;
+
+    background: linear-gradient(180deg, #f9e8b4, #FFFFFF);
+}
+
+.buttons *:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 8px;
+    flex-direction: row;
+
+    position: relative;
+    left: 219px;
+    top: -220px
+}
+
+#blogbuttons.buttons {
+    left: 8px;
+    top: 20px;
+}
+
+
+@font-face {
+    font-family: 'nintendo';
+    src: url(https://dl.dropbox.com/s/8w4sembeqyz4rsq/Nintendo-DS-BIOS.ttf); }
+   
+nintendo {
+    font-family: 'nintendo';
+    color: #01AFEF;
+}  
