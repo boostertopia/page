@@ -35,7 +35,7 @@ body {
 #KUtop.top-bar {
     width: 400px;
     left: 530px;
-    top: -571px;
+    top: -582px;
 }
 
 .pixel {
@@ -72,7 +72,7 @@ body {
 #KUtab.tab-bar {
   width: 405px;
   left: 530px;
-  top: -571px;
+  top: -582px;
 }
 
 .main-box {
@@ -96,13 +96,14 @@ body {
 
 #blogmainbox.main-box {
     width: 545px;
+    height: 260px;
     top: 95px;
 }
 
 #KUmainbox.main-box {
   width: 405px;
   left: 530px;
-  top: -571px;
+  top: -582px;
   height: 400px;
 }
 
@@ -147,7 +148,19 @@ body {
   width: auto;
 
   position: relative;
-  bottom: 750px;
+  bottom: 730px;
+  margin: auto;
+  right: 1050px;
+
+  filter: drop-shadow(5px 5px 0px #000000)
+}
+
+.bigbooster {
+  height: 500px;
+  width: auto;
+  
+  position: relative;
+  bottom: 880px;
   margin: auto;
   right: 1050px;
 
@@ -204,7 +217,11 @@ body {
     height: 16px;
   }
 
-#main-text::-webkit-scrollbar-track, #blog-text::-webkit-scrollbar-track {
+  #blogbuttons.buttons::-webkit-scrollbar {
+    height: 13px;
+  }
+
+#main-text::-webkit-scrollbar-track, #blog-text::-webkit-scrollbar-track, #blogbuttons.buttons::-webkit-scrollbar-track {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAFElEQVQIW2M4fPz0////GYAYyAIASnoKpV3w4kgAAAAASUVORK5CYII=");
   image-rendering: pixelated;
   -webkit-filter: grayscale(100%);
@@ -214,7 +231,7 @@ body {
   filter: grayscale(100%);
 }
 
-#main-text::-webkit-scrollbar-track:active, #blog-text::-webkit-scrollbar-track:active {
+#main-text::-webkit-scrollbar-track:active, #blog-text::-webkit-scrollbar-track:active, #blogbuttons.buttons::-webkit-scrollbar-track:active {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAEElEQVQIW2No6+pjgAAgCwAWogM9VKrgGQAAAABJRU5ErkJggg==");
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -223,7 +240,7 @@ body {
   filter: grayscale(100%);
 }
 
-#main-text::-webkit-scrollbar-thumb, #blog-text::-webkit-scrollbar-thumb {
+#main-text::-webkit-scrollbar-thumb, #blog-text::-webkit-scrollbar-thumb, #blogbuttons.buttons::-webkit-scrollbar-thumb {
   border-top: 1px solid #cccccc;
   border-left: 1px solid #cccccc;
   border-right: 1px solid black;
@@ -235,11 +252,11 @@ body {
   z-index: 1;
 }
 
-#main-text::-webkit-scrollbar-corner, #blog-text::-webkit-scrollbar-corner {
+#main-text::-webkit-scrollbar-corner, #blog-text::-webkit-scrollbar-corner, #blogbuttons.buttons::-webkit-scrollbar-corner {
   background-color: #cccccc;
 }
 
-#main-text::-webkit-resizer, #blog-text::-webkit-resizer {
+#main-text::-webkit-resizer, #blog-text::-webkit-resizer, #blogbuttons.buttons::-webkit-resizer {
   width: 16px;
   height: 16px;
   background-color: #cccccc;
@@ -250,7 +267,7 @@ body {
 }
 
 #main-text::-webkit-scrollbar-button,
-#blog-text::-webkit-scrollbar-button {
+#blog-text::-webkit-scrollbar-button, #blogbuttons.buttons::-webkit-scrollbar-button {
   border-top: 1px solid #cccccc;
   border-left: 1px solid #cccccc;
   border-right: 1px solid black;
@@ -266,52 +283,52 @@ body {
 }
 
 #main-text::-webkit-scrollbar-button:active,
-#blog-text::-webkit-scrollbar-button:active {
+#blog-text::-webkit-scrollbar-button:active, #blogbuttons.buttons::-webkit-scrollbar-button:active {
   background-position: 2px 2px;
 }
 
 #main-text::-webkit-scrollbar-button:horizontal:decrement,
-#blog-text::-webkit-scrollbar-button:horizontal:decrement {
+#blog-text::-webkit-scrollbar-button:horizontal:decrement, #blogbuttons.buttons::-webkit-scrollbar-button:horizontal:decrement {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHklEQVQY02NgoBT8xyX8H5fwf1zCpOjAYwceV1EEAAO2D/HsQ4vsAAAAAElFTkSuQmCC");
 }
 
 #main-text::-webkit-scrollbar-button:horizontal:increment,
-#blog-text::-webkit-scrollbar-button:horizontal:increment {
+#blog-text::-webkit-scrollbar-button:horizontal:increment, #blogbuttons.buttons::-webkit-scrollbar-button:horizontal:increment {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHUlEQVQY02NgIB/8xy3xH7fEf9wS/0nUQZqrKAYAK44P8ZRmzLQAAAAASUVORK5CYII=");
 }
 
 #main-text::-webkit-scrollbar-button:vertical:decrement,
-#blog-text::-webkit-scrollbar-button:vertical:decrement {
+#blog-text::-webkit-scrollbar-button:vertical:decrement, #blogbuttons.buttons::-webkit-scrollbar-button:vertical:decrement {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGklEQVR4AWMYxuA/SYphmETFhDX9x4mHGQAAcL4P8dQiMq8AAAAASUVORK5CYII=");
 }
 
 #main-text::-webkit-scrollbar-button:vertical:increment,
-#blog-text::-webkit-scrollbar-button:vertical:increment {
+#blog-text::-webkit-scrollbar-button:vertical:increment, #blogbuttons.buttons::-webkit-scrollbar-button:vertical:increment {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAF0lEQVQY02NgoBf4jwJxSOHQhcNAOgMAWWAP8Rv2U3UAAAAASUVORK5CYII=");
 }
 
 #main-text::-webkit-scrollbar-button:horizontal:increment:start,
-#blog-text::-webkit-scrollbar-button:horizontal:increment:start {
+#blog-text::-webkit-scrollbar-button:horizontal:increment:start, #blogbuttons.buttons::-webkit-scrollbar-button:horizontal:increment:start {
   display: none;
 }
 
 #main-text::-webkit-scrollbar-button:horizontal:decrement:end,
-#blog-text::-webkit-scrollbar-button:horizontal:decrement:end {
+#blog-text::-webkit-scrollbar-button:horizontal:decrement:end, #blogbuttons.buttons::-webkit-scrollbar-button:horizontal:decrement:end {
   display: none;
 }
 
 #main-text::-webkit-scrollbar-button:vertical:increment:start,
-#blog-text::-webkit-scrollbar-button:vertical:increment:start {
+#blog-text::-webkit-scrollbar-button:vertical:increment:start, #blogbuttons.buttons::-webkit-scrollbar-button:vertical:increment:start {
   display: none;
 }
 
 #main-text::-webkit-scrollbar-button:vertical:decrement:end,
-#blog-text::-webkit-scrollbar-button:vertical:decrement:end {
+#blog-text::-webkit-scrollbar-button:vertical:decrement:end, #blogbuttons.buttons::-webkit-scrollbar-button:vertical:decrement:end {
   display: none;
 }
 
 #main-text::-webkit-scrollbar-button:active,
-#blog-text::-webkit-scrollbar-button:active {
+#blog-text::-webkit-scrollbar-button:active, #blogbuttons.buttons::-webkit-scrollbar-button:active {
   border-top: 1px solid #868a8e;
   border-left: 1px solid #868a8e;
   border-bottom: 1px solid #868a8e;
@@ -346,12 +363,18 @@ body {
 
     position: relative;
     left: 219px;
-    top: -220px
+    top: -220px;
 }
 
 #blogbuttons.buttons {
     left: 8px;
     top: 20px;
+    width: 520px;
+    overflow-x: auto;
+}
+
+.button3 {
+  min-width: 60px;
 }
 
 
