@@ -29,11 +29,13 @@ body {
 
 #blogbar.top-bar {
     width: 540px;
-
-    position: relative;
-    padding: 2px;
-    margin: auto;
     top: 95px;
+}
+
+#KUtop.top-bar {
+    width: 400px;
+    left: 530px;
+    top: -571px;
 }
 
 .pixel {
@@ -67,6 +69,12 @@ body {
     width: 545px;
 }
 
+#KUtab.tab-bar {
+  width: 405px;
+  left: 530px;
+  top: -571px;
+}
+
 .main-box {
     width: 406px;
     height: 250px;
@@ -91,6 +99,13 @@ body {
     top: 95px;
 }
 
+#KUmainbox.main-box {
+  width: 405px;
+  left: 530px;
+  top: -571px;
+  height: 400px;
+}
+
 .booster {
     width: 170px;
     height: auto;
@@ -112,23 +127,37 @@ body {
     margin: auto;
 }
 
-#main-text {
-    width: 205px;
-    height: 230px;
+#main-text, #blog-text, #KU-text {
     border: 2px solid #ecb81b;
     font-family: nintendo;
     border-radius: 10px;
     background-color: #FFFFFF;
 
-    top: -172px;
     padding: 2px;
+    padding-left: 5px;
+    padding-top: 5px;
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
     box-sizing: border-box; 
-    padding-left: 5px;
-    padding-top: 5px;
     position: relative;
+}
+
+#main-text {
+    width: 205px;
+    height: 230px;
+
+    top: -172px;
     left: 3px;
+
+    overflow: auto;
+}
+
+#KU-text {
+    width: 380px;
+    height: 375px;
+
+    left: 6px;
+    top: 10px;
 
     overflow: auto;
 }
@@ -136,18 +165,7 @@ body {
 #blog-text {
     width: 520px;
     height: 190px;
-    border: 2px solid #ecb81b;
-    font-family: nintendo;
-    border-radius: 10px;
-    background-color: #FFFFFF;
 
-    padding: 2px;
-    padding-left: 5px;
-    padding-top: 5px;
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box; 
-    position: relative;
     top: 9px;
     left: 6px;
 
